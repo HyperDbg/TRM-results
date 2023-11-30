@@ -1,0 +1,7 @@
+clang -m32 -g Code.c -o 32-bit-debug.exe
+clang -m64 -g Code.c -o 64-bit-debug.exe
+
+
+# Aggressive optimization
+clang -m64 -O3  Code.c -o 64-bit-release.exe
+clang -m32 -O3 Code.c -o 32-bit-release.exe
