@@ -1,16 +1,3 @@
-save commands and results into file : c:\users\sina\desktop\log_open.txt (2023-12-22 17:53:49)
-
-1: kHyperDbg> ? .thread_id = $tid;
-
-1: kHyperDbg> !monitor rw 1409008 1409008+0x500 script {
-	
-	if ($tid == .thread_id) {
-		printf("{ \"rip\": 0x%llx, \"context\": 0x%llx, \"buffer1\": \"%llx\", \"buffer2\": \"%llx\", \"inst_len\": 0x%x }\n", @rip, $context, dq(@rip), dq(@rip+8), disassemble_len(@rip));
-	}
-}
-
-1: kHyperDbg> g
-debuggee is running...
 { "rip": 0xf06e21, "context": 0x1409008, "buffer1": "83088b10458b1188", "buffer2": "8b0a8910558b01c1", "inst_len": 0x2 }
 { "rip": 0xf06e21, "context": 0x1409009, "buffer1": "83088b10458b1188", "buffer2": "8b0a8910558b01c1", "inst_len": 0x2 }
 { "rip": 0xf06e21, "context": 0x140900a, "buffer1": "83088b10458b1188", "buffer2": "8b0a8910558b01c1", "inst_len": 0x2 }
@@ -936,7 +923,3 @@ debuggee is running...
 { "rip": 0xe9d97c, "context": 0x1409502, "buffer1": "fa8b0424448baaf3", "buffer2": "f8605c25ba0fc3", "inst_len": 0x2 }
 { "rip": 0xe9d97c, "context": 0x1409504, "buffer1": "fa8b0424448baaf3", "buffer2": "f8605c25ba0fc3", "inst_len": 0x2 }
 { "rip": 0xe9d97c, "context": 0x1409506, "buffer1": "fa8b0424448baaf3", "buffer2": "f8605c25ba0fc3", "inst_len": 0x2 }
-fffff801`0c918e62    0F 01 C1                            vmcall
-
-0: kHyperDbg> .logclose
-log file closed (2023-12-22 17:54:27)
