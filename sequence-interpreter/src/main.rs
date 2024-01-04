@@ -105,7 +105,7 @@ fn zydis_disasm_interpret(code: &[u8],
                  insn.operand_count);
         */
 
-        println!("{:016x} {}", ip, fmt.format(Some(ip), &insn)?);
+        println!("{:016x} {} ; +0x{context:X}", ip, fmt.format(Some(ip), &insn)?);
 
         /*
         if insn.operand_width != 32 && insn.operand_width != 64 {
@@ -172,10 +172,36 @@ fn main() -> io::Result<()>  {
 
     let file_address = file_path.trim();
 
-    let file = File::open(file_address)?;
-    let reader = BufReader::new(file);
+    let file1 = File::open(file_address)?;
+    let reader1 = BufReader::new(file1);
 
-    for line_result in reader.lines() {
+    let file2 = File::open(file_address)?;
+    let reader2 = BufReader::new(file2);
+
+    let mut min_context: u64 = 0xffffffffffffffff;
+
+    for line_result in reader1.lines() {
+        let line = line_result?;
+        let json_str: &str = line.as_str(); // Convert String to &str
+
+        // println!("{}", line);
+        let json: serde_json::Value = serde_json::from_str(json_str).expect("JSON was not well-formatted");
+
+        //
+        // Access individual fields
+        //
+        let context = json["context"].as_str().unwrap();
+
+        let context_u64 = parse_hex_to_u64(context).unwrap();
+
+        if min_context > context_u64 {
+            min_context = context_u64;
+        }
+    }
+
+    println!("minimum context: {min_context:X}");
+
+    for line_result in reader2.lines() {
 
         let line = line_result?;
         let json_str: &str = line.as_str(); // Convert String to &str
@@ -202,7 +228,6 @@ fn main() -> io::Result<()>  {
 
         let combined_buffer1 = padding1 + buffer1; // Prepend the padding to buffer1
         let combined_buffer2 = padding2 + buffer2; // Prepend the padding to buffer1
-
 
         // println!("=================================================================");
 
@@ -286,7 +311,7 @@ fn main() -> io::Result<()>  {
                 //
                 let slice_u8: &[u8] = &bytes;
 
-                match zydis_disasm_interpret(slice_u8, rip_u64, base_u64,context_u64, true) {
+                match zydis_disasm_interpret(slice_u8, rip_u64, base_u64,context_u64 - min_context, true) {
                     Ok(result) => {
                         // The disassembly was successful, so you can work with the result
                         // break;
