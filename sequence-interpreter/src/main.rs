@@ -56,6 +56,7 @@ fn zydis_len_disasm(code: &[u8]) -> zydis::Result<u8> {
 fn zydis_disasm(code: &[u8], rip: u64, single_instruction: bool) -> zydis::Result<()> {
 
     let fmt = Formatter::intel();
+    // let dec = Decoder::new32();
     let dec = Decoder::new64();
 
     for insn_info in dec.decode_all::<VisibleOperands>(code, rip) {
@@ -80,7 +81,7 @@ fn zydis_disasm_interpret(code: &[u8],
                           single_instruction: bool) -> zydis::Result<()> {
 
     let fmt = Formatter::intel();
-    let dec = Decoder::new64();
+    let dec = Decoder::new32();
 
     for insn_info in dec.decode_all::<VisibleOperands>(code, rip) {
         let (ip, _raw_bytes, insn) = insn_info?;
@@ -199,7 +200,7 @@ fn main() -> io::Result<()>  {
         }
     }
 
-    println!("minimum context: {min_context:X}");
+    // println!("minimum context: {min_context:X}");
 
     for line_result in reader2.lines() {
 

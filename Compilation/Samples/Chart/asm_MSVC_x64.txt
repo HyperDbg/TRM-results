@@ -1,0 +1,331 @@
+00007ff67b156171 mov [rax], cl ; +0x0
+00007ff67b156171 mov [rax], cl ; +0x1
+00007ff67b156171 mov [rax], cl ; +0x2
+00007ff67b156171 mov [rax], cl ; +0x3
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x4
+00007ff67b156171 mov [rax], cl ; +0x32
+00007ff67b156171 mov [rax], cl ; +0x33
+00007ff67b156171 mov [rax], cl ; +0x34
+00007ff67b156171 mov [rax], cl ; +0x35
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x36
+00007ff67b156171 mov [rax], cl ; +0x68
+00007ff67b156171 mov [rax], cl ; +0x69
+00007ff67b156171 mov [rax], cl ; +0x6A
+00007ff67b156171 mov [rax], cl ; +0x6B
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x6C
+00007ff67b156171 mov [rax], cl ; +0xCC
+00007ff67b156171 mov [rax], cl ; +0xCD
+00007ff67b156171 mov [rax], cl ; +0xCE
+00007ff67b156171 mov [rax], cl ; +0xCF
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0xD0
+00007ff67b156171 mov [rax], cl ; +0x100
+00007ff67b156171 mov [rax], cl ; +0x101
+00007ff67b156171 mov [rax], cl ; +0x102
+00007ff67b156171 mov [rax], cl ; +0x103
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x104
+00007ff67b156171 mov [rax], cl ; +0x132
+00007ff67b156171 mov [rax], cl ; +0x133
+00007ff67b156171 mov [rax], cl ; +0x134
+00007ff67b156171 mov [rax], cl ; +0x135
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x136
+00007ff67b156171 mov [rax], cl ; +0x168
+00007ff67b156171 mov [rax], cl ; +0x169
+00007ff67b156171 mov [rax], cl ; +0x16A
+00007ff67b156171 mov [rax], cl ; +0x16B
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x16C
+00007ff67b156171 mov [rax], cl ; +0x1CC
+00007ff67b156171 mov [rax], cl ; +0x1CD
+00007ff67b156171 mov [rax], cl ; +0x1CE
+00007ff67b156171 mov [rax], cl ; +0x1CF
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x1D0
+00007ff67b156171 mov [rax], cl ; +0x200
+00007ff67b156171 mov [rax], cl ; +0x201
+00007ff67b156171 mov [rax], cl ; +0x202
+00007ff67b156171 mov [rax], cl ; +0x203
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x204
+00007ff67b156171 mov [rax], cl ; +0x232
+00007ff67b156171 mov [rax], cl ; +0x233
+00007ff67b156171 mov [rax], cl ; +0x234
+00007ff67b156171 mov [rax], cl ; +0x235
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x236
+00007ff67b156171 mov [rax], cl ; +0x268
+00007ff67b156171 mov [rax], cl ; +0x269
+00007ff67b156171 mov [rax], cl ; +0x26A
+00007ff67b156171 mov [rax], cl ; +0x26B
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x26C
+00007ff67b156171 mov [rax], cl ; +0x2CC
+00007ff67b156171 mov [rax], cl ; +0x2CD
+00007ff67b156171 mov [rax], cl ; +0x2CE
+00007ff67b156171 mov [rax], cl ; +0x2CF
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x2D0
+00007ff67b156171 mov [rax], cl ; +0x300
+00007ff67b156171 mov [rax], cl ; +0x301
+00007ff67b156171 mov [rax], cl ; +0x302
+00007ff67b156171 mov [rax], cl ; +0x303
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x304
+00007ff67b156171 mov [rax], cl ; +0x332
+00007ff67b156171 mov [rax], cl ; +0x333
+00007ff67b156171 mov [rax], cl ; +0x334
+00007ff67b156171 mov [rax], cl ; +0x335
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x336
+00007ff67b156171 mov [rax], cl ; +0x368
+00007ff67b156171 mov [rax], cl ; +0x369
+00007ff67b156171 mov [rax], cl ; +0x36A
+00007ff67b156171 mov [rax], cl ; +0x36B
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x36C
+00007ff67b156171 mov [rax], cl ; +0x3CC
+00007ff67b156171 mov [rax], cl ; +0x3CD
+00007ff67b156171 mov [rax], cl ; +0x3CE
+00007ff67b156171 mov [rax], cl ; +0x3CF
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x3D0
+00007ff67b156171 mov [rax], cl ; +0x400
+00007ff67b156171 mov [rax], cl ; +0x401
+00007ff67b156171 mov [rax], cl ; +0x402
+00007ff67b156171 mov [rax], cl ; +0x403
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x404
+00007ff67b156171 mov [rax], cl ; +0x432
+00007ff67b156171 mov [rax], cl ; +0x433
+00007ff67b156171 mov [rax], cl ; +0x434
+00007ff67b156171 mov [rax], cl ; +0x435
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x436
+00007ff67b156171 mov [rax], cl ; +0x468
+00007ff67b156171 mov [rax], cl ; +0x469
+00007ff67b156171 mov [rax], cl ; +0x46A
+00007ff67b156171 mov [rax], cl ; +0x46B
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x46C
+00007ff67b156171 mov [rax], cl ; +0x4CC
+00007ff67b156171 mov [rax], cl ; +0x4CD
+00007ff67b156171 mov [rax], cl ; +0x4CE
+00007ff67b156171 mov [rax], cl ; +0x4CF
+00007ff67b14507d mov byte ptr [rax], 0x00 ; +0x4D0
+00007ff67b1794fd vmovdqu ymm0, [rax] ; +0x0
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x0
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x1
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x2
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x3
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x4
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x1
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x2
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x3
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x32
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x33
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x34
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x35
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x36
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x32
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x33
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x34
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x35
+00007ff67b0c5f89 mov edx, [rcx+rax*1+0x64] ; +0x64
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x68
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x69
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x6A
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x6B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x6C
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x68
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x69
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x6A
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x6B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0xCC
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0xCD
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0xCE
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0xCF
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0xD0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0xCC
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0xCD
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0xCE
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0xCF
+00007ff67b1794fd vmovdqu ymm0, [rax] ; +0x100
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x100
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x101
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x102
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x103
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x104
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x100
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x101
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x102
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x103
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x132
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x133
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x134
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x135
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x136
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x132
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x133
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x134
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x135
+00007ff67b0c5f89 mov edx, [rcx+rax*1+0x64] ; +0x164
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x168
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x169
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x16A
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x16B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x16C
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x168
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x169
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x16A
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x16B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x1CC
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x1CD
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x1CE
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x1CF
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x1D0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x1CC
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x1CD
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x1CE
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x1CF
+00007ff67b1794fd vmovdqu ymm0, [rax] ; +0x200
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x200
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x201
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x202
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x203
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x204
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x200
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x201
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x202
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x203
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x232
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x233
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x234
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x235
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x236
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x232
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x233
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x234
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x235
+00007ff67b0c5f89 mov edx, [rcx+rax*1+0x64] ; +0x264
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x268
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x269
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x26A
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x26B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x26C
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x268
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x269
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x26A
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x26B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x2CC
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x2CD
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x2CE
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x2CF
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x2D0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x2CC
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x2CD
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x2CE
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x2CF
+00007ff67b1794fd vmovdqu ymm0, [rax] ; +0x300
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x300
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x301
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x302
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x303
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x304
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x300
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x301
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x302
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x303
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x332
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x333
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x334
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x335
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x336
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x332
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x333
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x334
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x335
+00007ff67b0c5f89 mov edx, [rcx+rax*1+0x64] ; +0x364
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x368
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x369
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x36A
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x36B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x36C
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x368
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x369
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x36A
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x36B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x3CC
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x3CD
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x3CE
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x3CF
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x3D0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x3CC
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x3CD
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x3CE
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x3CF
+00007ff67b1794fd vmovdqu ymm0, [rax] ; +0x400
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x400
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x401
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x402
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x403
+00007ff67b1795af movzx eax, byte ptr [rax] ; +0x404
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x400
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x401
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x402
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x403
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x432
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x433
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x434
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x435
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x436
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x432
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x433
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x434
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x435
+00007ff67b0c5f89 mov edx, [rcx+rax*1+0x64] ; +0x464
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x468
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x469
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x46A
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x46B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x46C
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x468
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x469
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x46A
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x46B
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x4CC
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x4CD
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x4CE
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x4CF
+00007ff67b178bd7 movzx eax, byte ptr [rax] ; +0x4D0
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x4CC
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x4CD
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x4CE
+00007ff67b13a557 movzx edx, byte ptr [rax] ; +0x4CF
+00007ff67b1c2574 vmovdqa [rcx+0x20], ymm0 ; +0x0
+00007ff67b1c2579 vmovdqa [rcx+0x40], ymm0 ; +0x20
+00007ff67b1c257e vmovdqa [rcx+0x60], ymm0 ; +0x40
+00007ff67b1c2583 vmovdqa [rcx+0x80], ymm0 ; +0x60
+00007ff67b1c258b vmovdqa [rcx+0xA0], ymm0 ; +0x80
+00007ff67b1c2593 vmovdqa [rcx+0xC0], ymm0 ; +0xA0
+00007ff67b1c259b vmovdqa [rcx+0xE0], ymm0 ; +0xC0
+00007ff67b1c2570 vmovdqa [rcx], ymm0 ; +0xE0
+00007ff67b1c2574 vmovdqa [rcx+0x20], ymm0 ; +0x100
+00007ff67b1c2579 vmovdqa [rcx+0x40], ymm0 ; +0x120
+00007ff67b1c257e vmovdqa [rcx+0x60], ymm0 ; +0x140
+00007ff67b1c2583 vmovdqa [rcx+0x80], ymm0 ; +0x160
+00007ff67b1c258b vmovdqa [rcx+0xA0], ymm0 ; +0x180
+00007ff67b1c2593 vmovdqa [rcx+0xC0], ymm0 ; +0x1A0
+00007ff67b1c259b vmovdqa [rcx+0xE0], ymm0 ; +0x1C0
+00007ff67b1c2570 vmovdqa [rcx], ymm0 ; +0x1E0
+00007ff67b1c2574 vmovdqa [rcx+0x20], ymm0 ; +0x200
+00007ff67b1c2579 vmovdqa [rcx+0x40], ymm0 ; +0x220
+00007ff67b1c257e vmovdqa [rcx+0x60], ymm0 ; +0x240
+00007ff67b1c2583 vmovdqa [rcx+0x80], ymm0 ; +0x260
+00007ff67b1c258b vmovdqa [rcx+0xA0], ymm0 ; +0x280
+00007ff67b1c2593 vmovdqa [rcx+0xC0], ymm0 ; +0x2A0
+00007ff67b1c259b vmovdqa [rcx+0xE0], ymm0 ; +0x2C0
+00007ff67b1c2570 vmovdqa [rcx], ymm0 ; +0x2E0
+00007ff67b1c2574 vmovdqa [rcx+0x20], ymm0 ; +0x300
+00007ff67b1c2579 vmovdqa [rcx+0x40], ymm0 ; +0x320
+00007ff67b1c257e vmovdqa [rcx+0x60], ymm0 ; +0x340
+00007ff67b1c2583 vmovdqa [rcx+0x80], ymm0 ; +0x360
+00007ff67b1c258b vmovdqa [rcx+0xA0], ymm0 ; +0x380
+00007ff67b1c2593 vmovdqa [rcx+0xC0], ymm0 ; +0x3A0
+00007ff67b1c259b vmovdqa [rcx+0xE0], ymm0 ; +0x3C0
+00007ff67b1c2570 vmovdqa [rcx], ymm0 ; +0x3E0
+00007ff67b1c2574 vmovdqa [rcx+0x20], ymm0 ; +0x400
+00007ff67b1c2579 vmovdqa [rcx+0x40], ymm0 ; +0x420
+00007ff67b1c257e vmovdqa [rcx+0x60], ymm0 ; +0x440
+00007ff67b1c2583 vmovdqa [rcx+0x80], ymm0 ; +0x460
+00007ff67b1c258b vmovdqa [rcx+0xA0], ymm0 ; +0x480
+00007ff67b1c2593 vmovdqa [rcx+0xC0], ymm0 ; +0x4A0
+00007ff67b1c259b vmovdqa [rcx+0xE0], ymm0 ; +0x4C0
+00007ff67b1c260d vmovdqu [rcx+r9*1-0x40], ymm0 ; +0x4E0
+00007ff67b1c2614 vmovdqu [rcx+r8*1-0x20], ymm0 ; +0x4E4
