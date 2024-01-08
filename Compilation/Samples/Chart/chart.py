@@ -4,10 +4,10 @@ from matplotlib.cm import get_cmap
 
 # List of file paths
 file_paths = [
-    "asm_IntelCompiler_x64.txt",
-    "asm_IntelCompiler_x86.txt",
-    "asm_MSVC_x64.txt",
-    "asm_MSVC_x86.txt"
+    "IntelCompiler_x64",
+    "IntelCompiler_x86",
+    "MSVC_x64",
+    "MSVC_x86"
 ]
 
 # Lists to store the extracted hex numbers and corresponding file names
@@ -33,14 +33,22 @@ for file_path in file_paths:
 # Use a colormap for the lines
 cmap = get_cmap('tab10')
 
+markers=['v','^','o', '+']
+lines=['dashed','dashed','dashed', 'dashed']
+
+lw = 10
+overlapping = 1
+
 # Create a separate plot for each file with unique colors
 for i in range(len(file_paths)):
     color = cmap(i % 10)  # Use modulo to ensure colors repeat if more than 10 files
-    overlapping = 0.450
-    plt.plot(all_hex_numbers[i], color=color, marker='o', label=file_names[i], alpha=overlapping)
+    overlapping = overlapping - 0.1
+    lw = lw - 2
+    plt.plot(all_hex_numbers[i], color=color, marker=markers[i], label=file_names[i], alpha=overlapping, linestyle=lines[i], linewidth=lw)
+
 
 # Add labels and legend
-plt.title('Linear Chart based on relative memory offset')
+plt.title('Linear chart based on relative memory offset')
 plt.xlabel('Time')
 plt.ylabel('Relative memory offset')
 plt.grid(True)
