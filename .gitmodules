@@ -1,0 +1,6 @@
+[submodule "In-memory/process_doppelganging"]
+	path = In-memory/process_doppelganging
+	url = https://github.com/hasherezade/process_doppelganging.git
+[submodule "In-memory/Process-Hollowing"]
+	path = In-memory/Process-Hollowing
+	url = https://github.com/adamhlt/Process-Hollowing.git
