@@ -4,3 +4,6 @@
 [submodule "In-memory/Process-Hollowing"]
 	path = In-memory/Process-Hollowing
 	url = https://github.com/adamhlt/Process-Hollowing.git
+[submodule "Advanced-Process-Injection-Workshop"]
+	path = Advanced-Process-Injection-Workshop
+	url = https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop
