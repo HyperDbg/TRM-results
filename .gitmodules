@@ -7,3 +7,6 @@
 [submodule "Advanced-Process-Injection-Workshop"]
 	path = Advanced-Process-Injection-Workshop
 	url = https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop
+[submodule "In-memory/ProcessReimaging"]
+	path = In-memory/ProcessReimaging
+	url = https://github.com/djhohnstein/ProcessReimaging
