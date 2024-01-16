@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MiscTechniques.c" />
+    <ClCompile Include="ReflectiveDllInjection.cpp" />
     <ClCompile Include="RemoteProcessInjection.c" />
     <ClCompile Include="DllInjection.c" />
   </ItemGroup>
