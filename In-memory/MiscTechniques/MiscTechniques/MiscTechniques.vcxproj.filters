@@ -18,7 +18,7 @@
     <ClCompile Include="MiscTechniques.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.c">
+    <ClCompile Include="DllInjection.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RemoteProcessInjection.c">

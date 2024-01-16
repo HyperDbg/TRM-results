@@ -5,5 +5,7 @@ int main()
 {
     UINT32 TargetProcessId = 0x1c0;
 
-    InjectShellcodeRemoteProcess(TargetProcessId);
+    // InjectShellcodeRemoteProcess(TargetProcessId);
+
+    // DllInjectionRemoteProcess(TargetProcessId);
 }

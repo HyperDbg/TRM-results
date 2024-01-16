@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="MiscTechniques.c" />
     <ClCompile Include="RemoteProcessInjection.c" />
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="DllInjection.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h" />

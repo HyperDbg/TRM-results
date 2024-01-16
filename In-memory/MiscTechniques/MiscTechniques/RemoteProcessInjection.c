@@ -1,5 +1,5 @@
-#include <Windows.h>
 #include <stdio.h>
+#include <Windows.h>
 #include "AsmCodes.h"
 
 VOID InjectShellcodeRemoteProcess(UINT32 ProcessId)
