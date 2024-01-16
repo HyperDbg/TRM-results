@@ -131,10 +131,18 @@
     <ClCompile Include="ReflectiveDllInjection.cpp" />
     <ClCompile Include="RemoteProcessInjection.c" />
     <ClCompile Include="DllInjection.c" />
+    <ClCompile Include="RunFromPeResource.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Techniques.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiscTechniques.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mem_bin1.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

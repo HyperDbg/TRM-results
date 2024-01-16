@@ -10,4 +10,6 @@ int main()
     // DllInjectionRemoteProcess(TargetProcessId);
 
     // ReflectiveDllInjection();
+
+    RunFromPeResources();
 }

@@ -27,6 +27,9 @@
     <ClCompile Include="ReflectiveDllInjection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RunFromPeResource.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h">
@@ -35,5 +38,18 @@
     <ClInclude Include="Techniques.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiscTechniques.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mem_bin1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
