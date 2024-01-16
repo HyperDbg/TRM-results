@@ -11,5 +11,7 @@ int main()
 
     // ReflectiveDllInjection();
 
-    RunFromPeResources();
+    // RunFromPeResources();
+
+    // ApcQueueCodeInjection();
 }
