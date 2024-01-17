@@ -14,4 +14,8 @@ int main()
     // RunFromPeResources();
 
     // ApcQueueCodeInjection();
+
+    // EarlyBirdApcQueueInjection();
+
+    // ExecuteModuleShellcodeUsingFiber();
 }

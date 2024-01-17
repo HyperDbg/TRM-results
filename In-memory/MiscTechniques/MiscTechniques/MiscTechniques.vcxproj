@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="ApcQueueCodeInjection.cpp" />
     <ClCompile Include="EarlyBirdApcInjection.c" />
+    <ClCompile Include="ExecModuleUsingFibers.c" />
     <ClCompile Include="MiscTechniques.c" />
     <ClCompile Include="ReflectiveDllInjection.cpp" />
     <ClCompile Include="RemoteProcessInjection.c" />

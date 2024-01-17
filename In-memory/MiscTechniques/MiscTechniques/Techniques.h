@@ -12,3 +12,5 @@ VOID RunFromPeResources();
 VOID ApcQueueCodeInjection();
 
 VOID EarlyBirdApcQueueInjection();
+
+VOID ExecuteModuleShellcodeUsingFiber();
