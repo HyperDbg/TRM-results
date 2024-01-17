@@ -16,3 +16,5 @@ VOID EarlyBirdApcQueueInjection();
 VOID ExecuteModuleShellcodeUsingFiber();
 
 VOID ModuleExecutionThroughThreadPool();
+
+VOID MapViewOfSectionCodeInjection(UINT32 ProcessId);

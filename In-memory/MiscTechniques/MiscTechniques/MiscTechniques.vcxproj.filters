@@ -42,6 +42,9 @@
     <ClCompile Include="ModuleExecutionThroughThreadPool.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MapViewOfSectionCodeInjection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h">

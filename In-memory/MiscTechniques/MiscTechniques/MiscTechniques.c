@@ -3,19 +3,15 @@
 
 int main()
 {
-    UINT32 TargetProcessId = 0x1c0;
+	UINT32 TargetProcessId = 0x1c0;
 
-    // InjectShellcodeRemoteProcess(TargetProcessId);
-
-    // DllInjectionRemoteProcess(TargetProcessId);
-
-    // ReflectiveDllInjection();
-
-    // RunFromPeResources();
-
-    // ApcQueueCodeInjection();
-
-    // EarlyBirdApcQueueInjection();
-
-    // ExecuteModuleShellcodeUsingFiber();
+	// InjectShellcodeRemoteProcess(TargetProcessId);
+	// DllInjectionRemoteProcess(TargetProcessId);
+	// ReflectiveDllInjection();
+	// RunFromPeResources();
+	// ApcQueueCodeInjection();
+	// EarlyBirdApcQueueInjection();
+	// ExecuteModuleShellcodeUsingFiber();
+	// ModuleExecutionThroughThreadPool();
+	MapViewOfSectionCodeInjection(TargetProcessId);
 }

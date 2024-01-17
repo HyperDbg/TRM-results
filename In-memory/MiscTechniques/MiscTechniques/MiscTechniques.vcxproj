@@ -130,6 +130,7 @@
     <ClCompile Include="ApcQueueCodeInjection.cpp" />
     <ClCompile Include="EarlyBirdApcInjection.c" />
     <ClCompile Include="ExecModuleUsingFibers.c" />
+    <ClCompile Include="MapViewOfSectionCodeInjection.cpp" />
     <ClCompile Include="MiscTechniques.c" />
     <ClCompile Include="ModuleExecutionThroughThreadPool.c" />
     <ClCompile Include="ReflectiveDllInjection.cpp" />
