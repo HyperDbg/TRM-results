@@ -131,6 +131,7 @@
     <ClCompile Include="EarlyBirdApcInjection.c" />
     <ClCompile Include="ExecModuleUsingFibers.c" />
     <ClCompile Include="MiscTechniques.c" />
+    <ClCompile Include="ModuleExecutionThroughThreadPool.c" />
     <ClCompile Include="ReflectiveDllInjection.cpp" />
     <ClCompile Include="RemoteProcessInjection.c" />
     <ClCompile Include="DllInjection.c" />

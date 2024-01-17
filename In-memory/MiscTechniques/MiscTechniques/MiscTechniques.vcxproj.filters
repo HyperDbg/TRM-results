@@ -39,6 +39,9 @@
     <ClCompile Include="ExecModuleUsingFibers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ModuleExecutionThroughThreadPool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h">

@@ -14,3 +14,5 @@ VOID ApcQueueCodeInjection();
 VOID EarlyBirdApcQueueInjection();
 
 VOID ExecuteModuleShellcodeUsingFiber();
+
+VOID ModuleExecutionThroughThreadPool();
