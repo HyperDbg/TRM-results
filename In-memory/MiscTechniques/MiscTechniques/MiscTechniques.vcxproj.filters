@@ -33,6 +33,9 @@
     <ClCompile Include="ApcQueueCodeInjection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EarlyBirdApcInjection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h">

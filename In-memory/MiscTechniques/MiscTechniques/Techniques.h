@@ -10,3 +10,5 @@ VOID ReflectiveDllInjection();
 VOID RunFromPeResources();
 
 VOID ApcQueueCodeInjection();
+
+VOID EarlyBirdApcQueueInjection();
