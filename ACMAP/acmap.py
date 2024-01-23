@@ -25,10 +25,11 @@ def longest_acmap(input_1, input_2):
 
     return acmap, max_length
 
-# Example usage:
-input_str1 = "ABCDabc123"
-input_str2 = "xyzABCD123"
-result_acmap, result_length = longest_acmap(input_str1, input_str2)
+# Example usage with arrays of integers:
+input_arr1 = [65, 66, 67, 68, 97, 98, 99, 49, 50, 51]
+input_arr2 = [120, 121, 122, 65, 66, 67, 68, 49, 50, 51]
+
+result_acmap, result_length = longest_acmap(input_arr1, input_arr2)
 
 print("Longest ACMAP:", result_acmap)
 print("Length of ACMAP:", result_length)
