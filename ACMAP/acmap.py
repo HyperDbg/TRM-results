@@ -1,3 +1,15 @@
+def read_array_from_file(file_path):
+    with open(file_path, 'r') as file:
+        array = []
+        for line in file:
+            # Split the line by ";" and take the part after "+"
+            hex_part = line.split(';')[-1].split('+')[-1].strip()
+            
+            # Convert the hex number to an integer and add it to the array
+            if hex_part:
+                array.append(int(hex_part, 16))
+    return array
+
 def longest_acmap(input_1, input_2):
     m = len(input_1)
     n = len(input_2)
@@ -25,10 +37,15 @@ def longest_acmap(input_1, input_2):
 
     return acmap, max_length
 
-# Example usage with arrays of integers:
-input_arr1 = [65, 66, 67, 68, 97, 98, 99, 49, 50, 51]
-input_arr2 = [120, 121, 122, 65, 66, 67, 68, 49, 50, 51]
+# File paths
+file_path1 = "test-samples/IntelCompiler_x64.txt"
+file_path2 = "test-samples/MSVC_x64.txt"
 
+# Read arrays from files
+input_arr1 = read_array_from_file(file_path1)
+input_arr2 = read_array_from_file(file_path2)
+
+# Example usage with arrays of integers read from files
 result_acmap, result_length = longest_acmap(input_arr1, input_arr2)
 
 print("Longest ACMAP:", result_acmap)
