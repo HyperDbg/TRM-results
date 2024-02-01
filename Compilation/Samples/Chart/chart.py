@@ -6,8 +6,10 @@ from matplotlib.cm import get_cmap
 file_paths = [
     "IntelCompiler_x64",
     "IntelCompiler_x86",
-    "MSVC_x64",
-    "MSVC_x86"
+    # "MSVC_x64",
+    # "MSVC_x86",
+    "MSVC_Themida",
+    "MSVC_VMProtect"
 ]
 
 # Lists to store the extracted hex numbers and corresponding file names
