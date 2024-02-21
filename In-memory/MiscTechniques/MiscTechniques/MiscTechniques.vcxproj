@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsmCodes.h" />
+    <ClInclude Include="AsmCodesTestProcessXored.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Techniques.h" />
   </ItemGroup>

@@ -5,16 +5,19 @@ hex_pattern = r'\\x([0-9a-fA-F]{2})'
 
 # Function to perform XOR operation
 def xor_with_password(hex_values, password):
-    password_bytes = password.encode('utf-8')
-    result = []
+    result = ""
+    actual_string = ""
     for hex_value in hex_values:
         # Convert hexadecimal string to integer
         value = int(hex_value, 16)
         # XOR operation
-        xored_value = value ^ password_bytes[len(result) % len(password_bytes)]
+        xored_value = value ^ password
         # Convert back to hexadecimal and append to result
-        result.append(format(xored_value, '02x'))
-    return result
+        result = result + "\\x" + format(xored_value, '02x')
+        actual_string = actual_string + "\\x" + format(value, '02x')
+        
+    print(result)
+    return result, actual_string
 
 # Open the input file for reading
 with open('AsmCodes.h', 'r') as input_file:
@@ -26,12 +29,15 @@ with open('AsmCodes.h', 'r') as input_file:
             hex_values = re.findall(hex_pattern, line)
             # If hexadecimal values are found, XOR them with the password
             if hex_values:
-                xored_values = xor_with_password(hex_values, "A")
+                result, actual_string = xor_with_password(hex_values, 0x41)
+                                
                 # Replace the original hexadecimal values with XORed values in the line
                 new_line = line
-                for original_hex, xored_hex in zip(hex_values, xored_values):
-                    new_line = new_line.replace("\\x" + original_hex, "\\x" + xored_hex, 1)
+                print("original line: " + line)
+                new_line = new_line.replace(actual_string, result, 1)
+                
                 # Write the modified line to the output file
+                print("new line: " + new_line)
                 output_file.write(new_line)
             else:
                 # If no hexadecimal values found, write the original line to the output file
