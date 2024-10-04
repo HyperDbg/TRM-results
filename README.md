@@ -97,3 +97,7 @@ This directory contains an example of a reconstructed kernel-mode structure (`nt
 ## Sequence Interpreter (sequence-interpreter)
 
 This directory contains the source of the memory access sequence interpreter (based on logs gathered from TRM).
+
+## CPUID Prime+Probe (CpuidPrimeAndProbe)
+
+This directory contains the source of the timing thread technique used in detecting the presence of a hypervisor without using any VM-exit (e.g., using RDTSC/P) instructions.
