@@ -101,3 +101,8 @@ This directory contains the source of the memory access sequence interpreter (ba
 ## CPUID Prime+Probe (CpuidPrimeAndProbe)
 
 This directory contains the source of the timing thread technique used in detecting the presence of a hypervisor without using any VM-exit (e.g., using RDTSC/P) instructions.
+
+## Performance artifacts (perf-artifacts)
+
+This directory contains code that is used to compare the performance.
+
