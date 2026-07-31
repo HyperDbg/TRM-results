@@ -2,6 +2,22 @@
 
 This repository contains different results for the TRM (The Reversing Machine) paper.
 
+## Publication
+
+In case you use **TRM** in your work, please consider citing our paper:
+
+**[TRM: An Efficient Hypervisor-Based Framework For Malware Analysis and Memory Reconstruction (AsiaCCS'26)](https://dl.acm.org/doi/10.1145/3779208.3785293)** [[PDF](https://dl.acm.org/doi/pdf/10.1145/3779208.3785293)]
+
+```
+@inproceedings{karvandi2026trm,
+  title={TRM: An Efficient Hypervisor-Based Framework For Malware Analysis and Memory Reconstruction},
+  author={Karvandi, Mohammad Sina and Meghdadizanjani, Soroush and Arasteh, Sima and Monfared, Saleh Khalaj and Fallah, Mohammad K and Gorgin, Saeid and Lee, Jeong-A and Slowinska, Asia and van der Kouwe, Erik},
+  booktitle={Proceedings of the ACM Asia Conference on Computer and Communications Security},
+  pages={68--82},
+  year={2026}
+}
+```
+
 ## The compiled version of code (Compilation)
 
 This directory contains compilations of example codes using different compilers and architecture (x86, x64).
